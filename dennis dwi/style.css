@@ -1,0 +1,52 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+}
+li {
+    list-style-type: none;
+    float: left;
+    padding: 30px 20px;
+}
+a {
+    text-decoration: none;
+    color: navy;
+    padding: 30px 20px;
+}
+.text:hover{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: yellow;
+    text-decoration: underline;
+    transition: 0.5s;
+    text-decoration-color: red;
+}
+text a:hover {
+    color: black;
+}
+
+header {
+    width: auto;
+    height: 80px;
+    background-color: greenyellow;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-right {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0;
+    float: left;
+}
+.Data {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 200px;
+    color: wheat;
+}
+body {
+    background-image: url(Background\ home.png);
+    background-size: cover;
+}
